@@ -627,7 +627,43 @@ AND SUBSCRIBER_INACTIVITY_DAYS <30
 
 -------------------------------------------------
 
- 
+SELECT
+	COUNT(DISTINCT TELEPHONIC_ADDRESS_ID)
+FROM
+	K_PREPAID
+WHERE
+	TELEPHONIC_ADDRESS_ID IN (
+	SELECT
+		ACCESS_METHOD_IDENTIFIER
+	FROM
+		A2346453.UPDATED_KYC_SND
+	WHERE
+		"SOURCE" IN ('GKYC', 'AGILE')
+UNION
+	SELECT
+		TELEPHONIC_ADDRESS_ID
+	FROM
+		AGILE_COMPLIANCE
+UNION
+	SELECT
+		mobile_number
+	FROM
+		GKY_DUMP
+UNION
+	SELECT
+		MSISDN
+	FROM
+		C_HISTORICAL
+UNION
+	SELECT
+		TELEPHONIC_ADDRESS_ID
+	FROM
+		DWH_CDR_REPOSITORY_MOBILITY_KE.KYC_DOCUMENT_REPOSITORY
+	WHERE
+		KYC_CHANNEL != 'US')
+	AND SUBSCRIBER_INACTIVITY_DAYS <30
+
+
  -----------------------------------------------------------
  
 
@@ -984,6 +1020,8 @@ WHERE a.DECREMENT >=1000)
 
 SELECT * FROM USSD_ARPU_BANDS_V4_WITH_DECREMENT_V1 
 
+SELECT * FROM ART_USSD_RECORDS_V5_WITH_DECREMENT_ARPU_BANDS_V1 
+
 ----------------------------------------------------------------------------
 
                    IVR link;;;;;
@@ -1073,8 +1111,3 @@ AND a.SUBSCRIBER_INACTIVITY_DAYS <90
 
 
 
-SELECT a.studioName, b.equipMake,b.equipSeries, b.equipModel FROM STUDIO as a
-LEFT OUTER JOIN EQUIPMENT b 
-ON a.studioID = b.studioID
-WHERE a.studioAddress = 'London'
-AND b.costPerDay > 125
