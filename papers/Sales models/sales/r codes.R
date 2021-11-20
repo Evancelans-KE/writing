@@ -1,6 +1,7 @@
 --Getting the coefficient correlation  between the id and the sales they belong to:
 
-> sales <- read_csv("class/hello/papers/Data analysis with R/sales.csv")
+> sales <- read_csv("sales/sales.csv")
+>print(sales)
 Rows: 54 Columns: 5                                                                            
 -- Column specification -----------------------------------------------------------------------
 Delimiter: ","
@@ -62,7 +63,7 @@ plot(diff(log(sales$sales)),type='l', main='log returns plot')
 > plot(as.ts(diff(log(store$sales))) )
 > lines(fitted(fitARIMA), col="red")
 
-#STEP 7 
+#STEP 7  
 #MAKING A PREDICTION BASED ON OUR ARIMA MODEL
 
  >futurVal <- forecast(fitARIMA,h=5, level=c(99)) 
