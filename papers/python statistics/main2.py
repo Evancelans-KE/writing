@@ -6,10 +6,11 @@ import statsmodels.api as sm
 from scipy import stats
 
 data = pd.read_csv (r'salroe.csv')
-X = data.salary
-y =data.roe
+print(data)
+# X = data.salary
+# y =data.roe
 
-X2 = sm.add_constant(X)
-est = sm.OLS(y, X2)
-est2 = est.fit()
-print(est2.summary())
+# X2 = sm.add_constant(X)
+# est = sm.OLS(y, X2)
+# est2 = est.fit()
+# print(est2.summary())
