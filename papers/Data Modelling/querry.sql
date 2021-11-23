@@ -1,3 +1,13 @@
+APEX PROJECT NAME = Enaji 
+APEX EMAIL  = evancelans@gmail.com 
+APEX PASSWORD = Gabon@489
+
+
+
+
+--CREATING THE TABLES
+
+
 CREATE TABLE MATCH 
 (
 MATCH_CODE VARCHAR(255) PRIMARY NOT NULL,
@@ -27,3 +37,70 @@ NATIONALITY VARCHAR(255)
 PRIMARY KEY (PASSPORT_NUM),
 FOREIGN KEY (REF_ID) REFERENCES MATCH(MATCH_CODE)
 );
+
+---INSERTING RECORDS INTO THE TABLE
+INSERT ALL
+INTO MATCH(MATCH_CODE,MATCH_DATE,SCORE) VALUES('001',2021-11-03','12','3)
+INTO MATCH(MATCH_CODE,MATCH_DATE,SCORE) VALUES('001',2021-11-03','12','3')
+INTO MATCH(MATCH_CODE,MATCH_DATE,SCORE) VALUES('001',2021-11-03','12','3')
+INTO MATCH(MATCH_CODE,MATCH_DATE,SCORE) VALUES('001',2021-11-03','12','3')
+INTO MATCH(MATCH_CODE,MATCH_DATE,SCORE) VALUES('001',2021-11-03','12','3')
+SELECT 1 FROM DUAL;
+
+
+---SELECTING FROM SAMPLE TABLE
+
+SELECT * FROM MATCH
+
+--1 --Selecting a match where score was 3 
+
+
+SELECT * FROM MATCH WHERE SCORE = 3
+
+
+--2	Selecting all matches that were played before 2021 and had scores of greater than 2 
+
+SELECT * FROM MATCH 
+WHERE MATCH_DATE<= '2021-01-01'
+AND NO_OF_PLAYERS>10
+AND SCORE>2
+
+--3 Update the players table match ID to match the correct match ID on the matches table
+
+
+UPDATE PLAYER 
+SET MACTH_ID = '001'
+WHERE PASSPORT_NUM = 'PNOOO1' 
+
+
+--4 Select the  maximum number of scores that each match  has ever had
+
+
+SELECT MATCH_CODE, MAX(SCORE) FROM MATCH 
+GROUP BY MATCH_CODE 
+
+--5 Deleting a match with a duplicate score value
+
+
+DELETE FROM MATCH WHRE MATCH_CODE = '0006'
+
+-- 6	Let’s concatenate the players with a SUPER tag before  their names and another tag MARIO for their countries
+
+
+SELECT 'SUPER' || lower(PLAYER_NAME) || 'MARIO' || 
+lower(NATIONALITY) || '.'
+AS SUPERSTARS FROM PLAYER
+--7.	Grouping all players by their nationality against the matches that they have played
+
+SELECT pl.NATIONALITY, COUNT(*) FROM PLAYER pl 
+LEFT OUTER JOIN MATCH mp 
+ON pl.MATCH_ID = mp.MATCH_CODE 
+GROUP BY pl.NATIONALITY 
+
+
+--8.	Get the total sum of all goals that have ever been scored by Brazilian Nationals 
+SELECT SUM(mp.SCORE) FROM PLAYER pl 
+LEFT OUTER JOIN MATCH mp 
+ON pl.MATCH_ID = mp.MATCH_CODE 
+WHERE pl.NATIONALITY = 'BRAZIL'
+
