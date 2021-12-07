@@ -114,7 +114,59 @@ Number of Fisher Scoring iterations: 3
 > 
 
 ##
+Gettin the Coefficients
 
+> summary(glm.fits)$coef
+ Estimate Std. Error    z value  Pr(>|z|)
+(Intercept) -0.126000257 0.24073574 -0.5233966 0.6006983
+Lag1        -0.073073746 0.05016739 -1.4565986 0.1452272
+Lag2        -0.042301344 0.05008605 -0.8445733 0.3983491
+Lag3         0.011085108 0.04993854  0.2219750 0.8243333
+Lag4         0.009358938 0.04997413  0.1872757 0.8514445
+Lag5         0.010313068 0.04951146  0.2082966 0.8349974
+Volume       0.135440659 0.15835970  0.8552723 0.3924004
+> 
 
+##PREDICT
 
+> contrasts(Direction)
+     Up
+Down  0
+Up    1
+> glm.pred=rep("Down" ,1250)
+> glm.pred[glm.probs >.5]=" Up"
+> table(glm.pred ,Direction)
+        Direction
+glm.pred Down  Up
+     Up   457 507
+    Down  145 141
+> mean(glm.pred== Direction)
+[1] 0.116
+> 
+
+##RANDOM FOREST TRAIN AND PREDICTION
+
+> library(randomForest)
+randomForest 4.6-14
+Type rfNews() to see new features/changes/bug fixes.
+Warning message:
+package ‘randomForest’ was built under R version 4.1.1 
+> library(ISLR)
+> table(Smarket$Year)
+
+2001 2002 2003 2004 2005 
+ 242  252  252  252  252 
+> train<-Smarket[Smarket$Year<2004,]
+> test<-Smarket[Smarket$Year>=2004,]
+> fit<-randomForest(Direction~Lag1+Lag2+Lag3,data=train,
++                   ntree=1000,importance=T)
+> test.pred<-predict(fit,test,type='class')
+> table(test.pred,test$Direction)
+         
+test.pred Down  Up
+     Down  107 142
+     Up    116 139
+> 
+
+##GET THE CONFUSION MATRIX
 
