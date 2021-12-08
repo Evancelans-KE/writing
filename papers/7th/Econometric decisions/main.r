@@ -99,29 +99,27 @@ spec_tbl_df [32 x 6] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
 > glm.fits=glm(psi∼ tuce + gpa + grade + lette, data=grade,family =binomial)
 > summary(glm.fits)
 
-Call:
-glm(formula = psi ~ tuce + gpa + grade + lette, family = binomial, 
-    data = grade)
+#GETTING THE COEFFICIENT FITS
 
-Deviance Residuals: 
-    Min       1Q   Median       3Q      Max  
--1.7647  -0.8474  -0.6056   0.8341   1.9234  
+> coef(glm.fits)
+(Intercept)        tuce         gpa       grade      letteB      letteC 
+ 2.50684627  0.02359214 -1.28340785  2.40762555 -0.29409538          NA 
+> 
 
-Coefficients: (1 not defined because of singularities)
-            Estimate Std. Error z value Pr(>|z|)  
-(Intercept)  2.50685    3.72800   0.672   0.5013  
-tuce         0.02359    0.11560   0.204   0.8383  
-gpa         -1.28341    1.21369  -1.057   0.2903  
-grade        2.40763    1.42364   1.691   0.0908 .
-letteB      -0.29410    1.05940  -0.278   0.7813  
-letteC            NA         NA      NA       NA  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#AND THEN SUMMARY
+> summary(glm.fits)$coef
+               Estimate Std. Error    z value   Pr(>|z|)
+(Intercept)  2.50684627   3.728001  0.6724371 0.50130550
+tuce         0.02359214   0.115601  0.2040825 0.83828902
+gpa         -1.28340785   1.213690 -1.0574431 0.29030942
+grade        2.40762555   1.423644  1.6911705 0.09080424
+letteB      -0.29409538   1.059397 -0.2776064 0.78131455
+>
 
-(Dispersion parameter for binomial family taken to be 1)
+#COEFFICIENTS
+> library(tidyverse)
+> cor(grade$gpa, grade$grade)
+[1] 0.4971474
+>
 
-    Null deviance: 43.860  on 31  degrees of freedom
-Residual deviance: 36.293  on 27  degrees of freedom
-AIC: 46.293
-
-Number of Fisher Scoring iterations: 4
+ggplot(grade) + aes(x = grade$tuce, y = grade$gpa) + geom_point(colour = "red") +theme_minimal()
