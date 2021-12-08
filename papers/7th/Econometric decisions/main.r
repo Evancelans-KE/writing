@@ -47,3 +47,19 @@ package ‘corrplot’ was built under R version 4.1.2
 > corrplot.mixed(cor1, lower.col = “black”, number.cex = .7)
 > corrplot.mixed(cor1, lower.col ="black", number.cex = .7)
 >
+
+
+##GETTING CORRELATION COFFICIENTS
+> library(tidyverse)
+> cor(production$valuedadd, production$capital)
+[1] 0.9753576
+> library(ggplot2)
+> ggplot(production) +
++     aes(x = capital, y = valueadd) +
++     geom_point(colour = "red") +
++     theme_minimal()
+> ggplot(production) +
++     aes(x = production$capital, y = production$valuedadd) +
++     geom_point(colour = "red") +
++     theme_minimal()
+>
