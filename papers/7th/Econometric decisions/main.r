@@ -123,3 +123,38 @@ letteB      -0.29409538   1.059397 -0.2776064 0.78131455
 >
 
 ggplot(grade) + aes(x = grade$tuce, y = grade$gpa) + geom_point(colour = "red") +theme_minimal()
+
+#PREDICTING GRADE
+
+> fit_1 <- lm(gpa ~ lette, data = gpa_a)
+> summary(fit_1)
+
+Call:
+lm(formula = gpa ~ lette, data = gpa_a)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.04273 -0.21250  0.02313  0.25156  0.56727 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   3.4327     0.1191  28.827  < 2e-16 ***
+letteB       -0.3527     0.1618  -2.180 0.037519 *  
+letteC       -0.6890     0.1835  -3.754 0.000776 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.395 on 29 degrees of freedom
+Multiple R-squared:  0.3301,	Adjusted R-squared:  0.2839 
+F-statistic: 7.144 on 2 and 29 DF,  p-value: 0.003002
+
+#
+> ggplot(data=gpa_a, aes(fit_1$residuals)) +
++     geom_histogram(binwidth = 1, color = "black", fill = "purple4") +
++     theme(panel.background = element_rect(fill = "white"),
++           axis.line.x=element_line(),
++           axis.line.y=element_line()) +
++     ggtitle("Histogram for Model Residuals")
+>
+#PREDICT GPA
+predict(fit_1, data.frame(gpa = 3.5))
