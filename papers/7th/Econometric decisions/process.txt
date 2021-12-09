@@ -1,0 +1,12 @@
+-data sources
+--data storage
+--data acccess
+--data manipuualtin
+--manipulation tools
+--dataa visulaisation
+--big data
+--benefits
+--Into to BI
+--BI artchitecture
+--Bnefits of BI
+---Introductoo
