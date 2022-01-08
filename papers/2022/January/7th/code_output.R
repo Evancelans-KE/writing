@@ -9,7 +9,8 @@
  Max.   :359966   Max.   :1.0000                                                        
       sa                 da                  sp              dp             pr           
  Length:359967      Length:359967      Min.   :    0   Min.   :    0   Length:359967     
- Class :character   Class :character   1st Qu.:13564   1st Qu.:   23   Class :character  
+ Class :character   Class :character  
+   1st Qu.:13564   1st Qu.:   23   Class :character  
  Mode  :character   Mode  :character   Median :31445   Median :   23   Mode  :character  
                                        Mean   :31032   Mean   : 2082                     
                                        3rd Qu.:48101   3rd Qu.:   81                     
