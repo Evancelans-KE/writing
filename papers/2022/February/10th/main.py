@@ -4,32 +4,31 @@ Spyder Editor
 This is a temporary script file.
 """
 
-#import numpy as np
-#import sklearn
-#import math
+
+import pandas as pd
+import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv('nuvi_models.csv')
-print(dataset);
+nuvi_data = pd.read_csv('nuvi_models.csv')
+print(nuvi_data);
 
 #Plot the variables  and show
 
-plt.bar(dataset['model'], dataset['count_of_models'])
+plt.bar(nuvi_data['model'], nuvi_data['count_of_models'])
 plt.title("Micro SD distributions")
-# Setting the X and Y labels
+
 plt.xlabel('model')
 plt.ylabel('count_of_models')
-# Adding the legends
+
 plt.show()
 
 
 #Plot the line graph
-import pandas as pd
-import matplotlib.pyplot as plt
+
 
 dataset = pd.read_csv('nuvi_card_slots.csv')
-#dataset = dataset.count_of_models.astype(int)
-print(dataset);
+
+print(nuvi_data);
 
 x = ['microSD', 'SD','Not_assigned']
 y = [2,9,1]
