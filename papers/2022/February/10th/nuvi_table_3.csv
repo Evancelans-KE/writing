@@ -1,0 +1,49 @@
+model,release date,screen,card slot,bluetooth,rds-tmc support,nülink! service,msn direct support (us),voice activation,text-to-speech,lane assist,junction view,traffic trends,fm transmitter,mp3,notes
+nüvi 30,2011,"3.5""",microSD,no,no,#N/A,#N/A,no,no,yes,#N/A,#N/A,no,#N/A,mapping coverage differences between models
+nüvi 40/40LM,2011,"4.3""",microSD,no,no,#N/A,#N/A,no,no,yes,#N/A,#N/A,no,#N/A,Model 40LM include Lifetime Maps
+nüvi 42/42LM/44/44LM,2013,"4.3""",microSD,no,no,#N/A,#N/A,no,no,yes,#N/A,#N/A,no,#N/A,mapping coverage differences between models
+nüvi 50/50LM,2011,"5.0""",microSD,no,no,#N/A,#N/A,no,no,yes,#N/A,#N/A,no,#N/A,Model 50LM include Lifetime Maps
+nüvi 52/52LM/54/54LM,2013,"5.0""",microSD,no,no,#N/A,#N/A,no,no,yes,#N/A,#N/A,no,#N/A,mapping coverage differences between models
+nüvi 200/250/260/270,April 2007[16],"3.5"" 320x240",SD,no,no,no,#N/A,no,no,no,no,no,no,no,mapping coverage differences between models
+nüvi 200w/250w/260w,July 2007[17],"4.3"" 480x272",SD,no,no,no,#N/A,no,no,no,no,no,no,no,mapping coverage differences between models
+nüvi 205/245/255,"205, 255 - March 2008[18]","3.5"" 320x240",microSD,no,yes,no,205/255 with,no,no,"no (205,245), 255 (N America, Australia, New Zealand only)",no,no,no,no,#N/A
+nüvi 205w/245w/255w,"205, 255 - March 2008[18]","4.3"" 480x272",SD,no,yes,no,205w/255w with,no,no,#N/A,no,no,no,no,#N/A
+nüvi 215T/265T/275T,"265, 275 - August 2008 [19]","3.5"" 320x240",microSD,yes,yes,no,#N/A,no,"no (215), yes (265, 275)",no,no,no,no,no,#N/A
+nüvi 215w/265w,August 2008 [19],"4.3"" 480x272",SD,yes,yes,no,#N/A,no,#N/A,no,no,no,no,no,#N/A
+nüvi 295w,May 2010 -,"3.5"" 480x272",microSD,no,yes,Connected Services,#N/A,no,yes,no,no,no,no,yes,"wifi, camera, web browser"
+nüvi 300/350,Q4 2005 [20],"3.5"" 320x240",SD,no,yes,no,#N/A,no,no/yes,no,no,no,no,yes,OS gridref facility. 350 had extra memory & maps.
+nüvi 310/360/370,June 2006 [21],"3.5"" 320x240",SD,yes,yes,no,#N/A,no,no/yes/yes,no,no,no,no,yes,370 has wider map coverage
+nuvi 465T,Q2 2009[22],"4.3"" 480x272",SD,yes,yes,no,#N/A,no,yes,yes,no,no,no,no,truck driver models
+nüvi 500/510/550,July 2008[23],"3.5"" 320x240",#N/A,"510 only, has headset functionality only[24]",yes,no,#N/A,no,yes,no,no,no,no,no,"waterproof, routes for boats, cycles and walkers; 550 offers continental mapping, 500 is single country"
+nüvi 610/660/670,"September 2006,[25][26]","4.3"" 480x272",SD,yes,yes,no,#N/A,no,no,no,no,no,no/yes/yes,yes,#N/A
+nüvi 600/650,April 2007[27],"4.3"" 480x272",SD,no,yes,no,#N/A,no,no,no,no,no,no,yes,#N/A
+nüvi 680,Early 2007 [28],"4.3"" 480x272",SD,yes,yes,no,?,no,yes,no,no,no,yes,yes,#N/A
+nüvi 710/750/760/770/780,August 2007[29],"4.3"" 480x272",SD,yes/no/yes/yes/yes,yes,no,all but 710,no,no/yes/yes/yes/yes,no,no,no,yes,yes,mapping differs between models
+nüvi 715/755/765/775/785,August 2008[30],"4.3"" 480x272",SD,yes/no/yes/yes/yes,yes,no,all but 715,no,yes,yes (ex. 715),yes (ex. 715),no,yes,yes,mapping differs between models
+nüvi 850/860/880,June 2008[31],"4.3"" 480x272",microSD,no,yes,no,850 / 880,yes,yes,no,no,no,yes,yes,#N/A
+nüvi 855/865/885,Q1 2009 [32],"4.3"" 480x272",microSD,no,yes,no,855 / 885,yes,yes,yes,yes,no,yes,yes,#N/A
+nüvi 900,Mar-08,"4.3"" 480x272",SD,yes,yes,no,#N/A,no,yes,no,no,no,no,yes,"Italy only, DVB-H TV"
+nüvi 1100,May-10,"3.5"" 320x240",microSD,no,yes,no,?,no,no,no,no,no,no,no,#N/A
+nüvi 1200/1210/1240/1250/1260,Q2 2009[33],"3.5"" 320x240",microSD,no/yes/no/no/yes,yes,no,1200/1250/,no,yes,no,no,no,no,no,mapping differences
+nüvi 1300/1340/1350/1355,Q2 2009[33],"4.3"" 480x272",microSD,no,yes,no,1300/1340/,no,yes,yes,no,no,no,no,mapping differences
+nüvi 1310/1370/1375,Q2 2009[33],"4.3"" 480x272",microSD,yes,yes,no,1370 with,no,yes,yes,no,no,no,no,mapping differences
+nüvi 1390,Q2 2009[33],"4.3"" 480x272",microSD,yes,yes,no,with,no,yes,yes,yes,no,no,no,#N/A
+nüvi 1410,Q3 2009,"5.0"" 480x272",microSD,yes,yes,no,#N/A,no,yes,yes,yes,no,no,no,#N/A
+nüvi 1420/1470,Q3 2009,"5.0"" 480x272",microSD,no/yes,yes,no,#N/A,no,yes,yes,yes,no,no,no,Taiwan-only
+nüvi 1440/1450,Q3 2009,"5.0"" 480x272",microSD,no,yes,no,#N/A,no,yes,yes,yes,no,no,no,#N/A
+nüvi 1480,Q3 2009,"5.0"" 480x272",microSD,yes,yes,no,#N/A,no,yes,yes,yes,no,no,no,"dvb-T TV, Taiwan-only"
+nüvi 1490,Q3 2009,"5.0"" 480x272",microSD,yes,yes,no,#N/A,no,yes,yes,yes,no,no,no,multi-drop route planning
+nüvi 1490TV,Q3 2009,"5.0"" 480x272",microSD,yes,yes,no,#N/A,no,yes,yes,yes,no,no,no,dvb-T TV
+nüvi 1490LMT,Q3 2009,"5.0"" 480x272",microSD,yes,yes,no,with,no,yes,yes,yes,no,no,no,Life Time Map Updates
+nüvi 1690,Q4 2009[34],"4.3"" 480x272",microSD,yes,no,yes,#N/A,no,yes,yes,yes,no,no,no,#N/A
+nüvi 2250/2250LT,Q2 2011,"3.5"" 320x240",microSD,no,#N/A,no,#N/A,no,#N/A,yes,#N/A,no,no,no,#N/A
+nüvi 2350/2350LT/2350LMT/2360LT/2370LT,Sep-10,"4.3"" 480x272",#N/A,#N/A,yes,#N/A,#N/A,#N/A,yes,yes,yes,yes,#N/A,#N/A,4GB internal storage compared to 2GB in the 1350 series
+nüvi 3540/3590,January 2012 [35],"5.0"" 800x480",microSD,no/yes,yes,no,#N/A,no/yes,yes,yes,yes,yes,no,no,multi-touch display
+nüvi 3750/3760,April 2010 [36],"4.3"" 800x480",microSD,no/yes,yes,no,#N/A,no,yes,yes,yes,yes,no,no,multi-touch display
+nüvi 3790,April 2010 [35],"4.3"" 800x480",microSD,yes,yes,no,#N/A,yes,yes,yes,yes,yes,no,no,"multi-touch display, 3d terrain view"
+nüvi 5000/5000 DVB-T,February 2008 [37],"5.2"" 800x480",SD,no,yes,no,with,no,yes,no,no,no,yes,yes,DVB TV support
+nüvi 3597LMTHD [38],May-13,"5"" 800x480",microSD,yes,no,no,#N/A,yes,yes,yes,yes,yes,no,#N/A,#N/A
+Drive,40 / 50 / 60,#N/A,#N/A,#N/A,51 / 61,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,52,#N/A,#N/A
+DriveSmart,50 / 60 / 70,#N/A,#N/A,#N/A,51 / 61,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,55 / 65,#N/A,#N/A
+DriveAssist,#N/A,#N/A,#N/A,50,51,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+DriveLuxe,#N/A,#N/A,#N/A,50,51,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
