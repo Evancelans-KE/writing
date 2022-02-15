@@ -1,0 +1,1015 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Before you turn this problem in, make sure everything runs as expected. First, **restart the kernel** (in the menubar, select Kernel$\\rightarrow$Restart) and then **run all cells** (in the menubar, select Cell$\\rightarrow$Run All).\n",
+    "\n",
+    "Make sure you fill in any place that says `YOUR CODE HERE` or \"YOUR ANSWER HERE\", as well as your name and collaborators below:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "NAME = \"\"\n",
+    "COLLABORATORS = \"\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "93469a12a54904257e1369e7dfc856eb",
+     "grade": false,
+     "grade_id": "cell-5d1bab8fb11fbfef",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "# General Instructions\n",
+    "1 - Start by downloading this jupyter notebook to your local machine\n",
+    "\n",
+    "2 - Open a tab in your browser and type https://colab.research.google.com/\n",
+    "\n",
+    "3 - This will open a small window. Choose the last option on the upper menu, \"Upload\". Then choose the jupyter notebook you have saved in step 1\n",
+    "\n",
+    "4 - You can start working on your assignment by answering the questions in the corresponding cells.\n",
+    "\n",
+    "5 - If you have any questions , please reach out to your instructor and TAs"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "8a28494d5e39c3d19e74c50161e57cbe",
+     "grade": false,
+     "grade_id": "cell-51dd6a66c889d356",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "\n",
+    "# Statistics- Variables Assignment\n",
+    "# Introduction to Variables Location Based Assignment\n",
+    "\n",
+    "This assignment is a location based-assignment that will require you to interact with the city around in you in a new way. The objective is to measure a variable in this location. You will identify a measurable variable in the city and then create an estimate using the Fermi estimation technique. Next, you will complete the data collection, calculate descriptive statistics on the data, and create relevant data visualizations. You will also have a chance to apply your knowledge of probability and simulation to solve a problem.\n",
+    "This is an individual assignment. Everything you submit should be your own words and reflect your own understanding of the material.\n",
+    "\n",
+    "**NOTES:**\n",
+    "\n",
+    "Anything marked as optional will only be scored if it is completed correctly. You must upload two files:\n",
+    "* **Primary Resource**: A PDF of your entire assignment. Run all cells before converting the notebook to a PDF, and double check to make sure that the PDF is complete with all sections visible. Email attachments will not be accepted. If you’re having difficulty converting your notebook to a PDF, try the tips available [here](https://docs.google.com/document/d/15dX89FOEoVEPuUNhY3PDloJ2qmQ63RQ_5l51zMEAlYQ/edit?usp=sharing)\n",
+    "\n",
+    "* **Secondary Resource**: A zipped folder containing the .ipynb file and your original photo files.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "7e9daef1ee5fedfeffe8c5cb791d3947",
+     "grade": false,
+     "grade_id": "cell-80001333fa5a7323",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "## PART 1: VARIABLE SELECTION [#variables]\n",
+    "\n",
+    "Select a neighborhood within a 10 minute walk of where you live. Visit this neighborhood and spend at least 30 minutes exploring the neighborhood to find your variable.\n",
+    "\n",
+    "Important notes:\n",
+    "* The variable must be something that can be measured at different locations in the city. You need to make at least 10 different measurements of this variable, one for each location. The locations must be at least 100 meters away from each other.\n",
+    "* You must be able to calculate the mean, median, mode, and standard deviation of the variable.\n",
+    "* Be clear about your choice of locations to make the variable measurements.\n",
+    "* Get creative! Try to choose an interesting and informative variable and make sure to justify why the variable you have chosen is interesting.\n",
+    "\n",
+    "\n",
+    "**1. Define and operationalize your variable here.** \n",
+    "\n",
+    "Describe how you selected your variable. Specifically identify the type of variable, and whether you will be measuring a total, proportion, or average. Also identify the units it will be measured in and explain in detail how you will measure it. Make sure that your explanation is clear enough that another student would understand how to make the same measurement. Give the address of the 10 or more locations where you will conduct your measurement and provide an image that clearly identifies these locations on a map. (<150 words)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "9615af647bdcb0be76b7143176491935",
+     "grade": true,
+     "grade_id": "cell-1ed136dd8b752dd3",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "0da9bbe54fc60d4a0854f03058b66c89",
+     "grade": false,
+     "grade_id": "cell-ee49af53e25701f1",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**2. Discuss variable relationships.**\n",
+    "\n",
+    "* **2.1** (<150 words)\n",
+    "     - A. Describe a scenario in which your variable could be an independent variable. \n",
+    "     - B. What could be the dependent variable(s)? \n",
+    "     - C. What are some possible extraneous or confounding variables in this scenario? "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "3e23658c3442abdb2db290709f9a62b9",
+     "grade": true,
+     "grade_id": "cell-a095d540261171f1",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "620d068acb835a14c0cdda1100a6dc59",
+     "grade": false,
+     "grade_id": "cell-ea654ca58afec136",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "* **2.2** (< 150 words)\n",
+    "    * A. Describe a scenario in which your variable could be a dependent variable. \n",
+    "    * B. What could be the independent variable(s)? \n",
+    "    * C. What are some possible extraneous or confounding variables in this scenario? "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "50f1e29a0641243960d550bedca09d13",
+     "grade": true,
+     "grade_id": "cell-8b98a5becab509e1",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "a1cfc396e4285c4317b6894c95dc13f1",
+     "grade": false,
+     "grade_id": "cell-3cdd49ab1da44efb",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "## PART 2: ESTIMATION AND MEASUREMENT [#variables]\n",
+    "\n",
+    "**Important note:** *if there is any reason to believe that you did not authentically complete the location based portion of this assignment, you risk receiving low scores in all your grades on LOs, and being referred to the administration. Please follow the instructions here carefully and include the original photo files in the zip folder along with the ipynb.*\n",
+    "\n",
+    "1. Go to a Cafe in the neighborhood of your choice to produce a Fermi estimate of your variable. Use a napkin at a cafe to begin your Fermi estimate. You may not (yet) make any measurements. Your estimate should aim to involve at least 5 steps where you compute intermediate values. You will have to describe each step clearly, show your work, state any assumptions you’re making, and discuss whether your answer seems plausible (but it’s not necessary to do so on the napkin; see step 4 below).\n",
+    "2. Take some photos to document this experience. You must include:\n",
+    "    * A photo just of your “back of the napkin” estimate (it can and should be quite rough at this point). You will properly format the calculation later.\n",
+    "    * A selfie in the cafe in which you constructed your Fermi estimate. Clearly show your face, your Fermi estimate, and some of the interior of the cafe.\n",
+    "    * A selfie outside of the cafe showing your face and the exterior of the cafe, including the name. Bonus points if you are also holding your completed Fermi estimate in the photo too.\n",
+    "3. Typeset your full estimation in the Python notebook. Here, be sure to clearly explain all steps, justify all assumptions, and comment on whether the answer seems plausible.\n",
+    "4. It’s time to collect your data! Once again, take some photos to document your experience. Include at least two photos of your variable collection process. At least one photo should include your face and the variable you are counting.\n",
+    "\n",
+    "Follow the instructions in this [link](https://docs.google.com/document/d/1OTLUMXG8NWzJkgZ5MtpjHpB45gC1IAzyofaC5_-WwPg/edit?usp=sharing\\) to upload your pictures to the jupyter notebook:\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "1cdc69a1c6cd0e315a27ff95fa6d3231",
+     "grade": true,
+     "grade_id": "cell-90cd9bd33558dec0",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# YOUR CODE HERE\n",
+    "raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "1647791fed2d59642fc9fa9916a51281",
+     "grade": true,
+     "grade_id": "cell-ed6e5e2c8b369f5c",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# YOUR CODE HERE\n",
+    "raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## PART 3: ANALYSIS\n",
+    "\n",
+    "1. Analyze the data in Python [#algorithms]:\n",
+    "    - **1.1** Use any method to import your collected data into Python. You can simply type the data directly into a Python list or numpy array. Or, you can put the data in a Google sheet, export to a .cvs file, and import into Python. Print your data in the cell below.\n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "b2fb310a0e02316356fea6c2af314e69",
+     "grade": true,
+     "grade_id": "cell-22b6d6913eec3919",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# YOUR CODE HERE\n",
+    "raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "159e9e9246141353f812115c4a28ea75",
+     "grade": false,
+     "grade_id": "cell-e0065038ddbba27e",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    " * **1.2** Using Python, calculate the mean, median, mode, range, and standard deviation of your variable. Print these values. If you use a library function, you need to explain how it works with detailed comments. Do not blindly use library functions!\n",
+    "\n",
+    "**Note**: Round your final answers up to 2 decimals."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "dfc80b97c94ce9480aa297e8730af138",
+     "grade": false,
+     "grade_id": "cell-6a32cc100ab88b75",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "def mean(my_data):\n",
+    "    \"\"\"\n",
+    "    calculates the mean of your data\n",
+    "    \n",
+    "    Input:\n",
+    "    my_data: an array of numbers (floats)\n",
+    "    \n",
+    "    Output: a float that represents the mean of your data\n",
+    "    \"\"\"\n",
+    "    # YOUR CODE HERE\n",
+    "    raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "d9ebeb25b856eeb52736dc7aa334d812",
+     "grade": false,
+     "grade_id": "cell-1370b99b4d8ed462",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "def median(my_data):\n",
+    "    \"\"\"\n",
+    "    calculates the median of your data\n",
+    "    \n",
+    "    Input:\n",
+    "    my_data: an array of numbers (floats)\n",
+    "    \n",
+    "    Output: a float that represents the median of your data\n",
+    "    \"\"\"\n",
+    "    # YOUR CODE HERE\n",
+    "    raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "e94cb5bbb45e1af4ce3a07e0a4ea06c6",
+     "grade": false,
+     "grade_id": "cell-3978538d7826bab3",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "def mode(my_data):\n",
+    "    \"\"\"\n",
+    "    calculates the mode of your data\n",
+    "    \n",
+    "    Input:\n",
+    "    my_data: an array of numbers (floats)\n",
+    "    \n",
+    "    Output: a flaot that represents the mode of your data\n",
+    "    \"\"\"\n",
+    "    # YOUR CODE HERE\n",
+    "    raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "c4cd9d23e859e3f274c611fc098eab30",
+     "grade": false,
+     "grade_id": "cell-c4f18dc8ed1f17b5",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "def data_range(my_data):\n",
+    "    \"\"\"\n",
+    "    calculates the range of your data\n",
+    "    \n",
+    "    Input:\n",
+    "    my_data: an array of numbers (floats)\n",
+    "    \n",
+    "    Output: a float that represents the range of your data\n",
+    "    \"\"\"\n",
+    "    # YOUR CODE HERE\n",
+    "    raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "25ee1808adaccb35dc0255b728397810",
+     "grade": false,
+     "grade_id": "cell-303389f3b73a5b49",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "def standard_deviation(my_data):\n",
+    "    \"\"\"\n",
+    "    calculates the standard deviation of your data\n",
+    "    \n",
+    "    Input:\n",
+    "    my_data: an array of numbers (floats)\n",
+    "    \n",
+    "    Output: a float that represents the standard deviation of your data\n",
+    "    \"\"\"\n",
+    "    # YOUR CODE HERE\n",
+    "    raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "b6d59c23ae4daeaf901513841c46999b",
+     "grade": true,
+     "grade_id": "cell-f9a95d9cd2e42b4c",
+     "locked": true,
+     "points": 10,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Please ignore this cell. This cell is for us to implement the tests \n",
+    "# to see if your code works properly. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "a62d71cf01f1f0725982563a19c49305",
+     "grade": false,
+     "grade_id": "cell-185290773563388b",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "* **1.3** Create a histogram for your data, properly formatting your figure."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "2697850ae5fea23aa183967b4694d3f2",
+     "grade": true,
+     "grade_id": "cell-7cb4ac72f966a5a6",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# YOUR CODE HERE\n",
+    "raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "74699604e4ea7434fcdfa745148ef984",
+     "grade": false,
+     "grade_id": "cell-d54c0c29c6e2205d",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**2.** Interpret the descriptive stats: What can you say about the neighborhood based on these values? Is the distribution skewed? Is your visualization in agreement with the descriptive statistics? Explain. [#professionalism, #descriptivestats, #algorithms] (<200 words)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "055f0907a90ec0e9bd63bbd1cd59a281",
+     "grade": true,
+     "grade_id": "cell-ec32b4886f85d5c0",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "e93025ceb3ddf95fa545f90265ae6fd8",
+     "grade": false,
+     "grade_id": "cell-33ca3e800e7b92d6",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "## PART 4: PROBABILITY CONSIDERATIONS [#probability, #algorithms, #dataviz]\n",
+    "\n",
+    "**1.** Can the mean of your data be interpreted as the expected value of a random variable? Explain why or why not in detail. (~50 words)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "39022a55e2c1743ac069785ed0c98a0e",
+     "grade": true,
+     "grade_id": "cell-ef8a8824e0b5d717",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "6c0c4c2ba947d44333656540800b8316",
+     "grade": false,
+     "grade_id": "cell-3f3bb2cc5862fa68",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**2.** Suppose something unfortunate happened: you stole too many napkins for your Fermi estimate, so you decided to write all of your variable measurements on separate napkins, one napkin for each location. On your way back to the campus, the wind picked up and blew them all away! Luckily, you managed to collect all of the napkins, but now the data is totally randomly reordered, meaning that you have no idea which napkin corresponds to which location. Suppose that you tried to just guess randomly which napkin goes with which location. In other words, you randomly assign each napkin to a given location.\n",
+    "\n",
+    "    * What is the probability that you are unlucky, and sadly NONE of the napkins are matched to the correct location (you guessed all of them wrong)? Estimate this probability using a simulation. Be sure to interpret the result appropriately. See hints below."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "cd0e44b1e519f06cd5fb26b388e3d0cc",
+     "grade": true,
+     "grade_id": "cell-db449b02a82242d0",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "def unlucky_probability(ordered_napkins):\n",
+    "    \"\"\"\n",
+    "    calculate the probability that all of your guesses are wrong\n",
+    "    \n",
+    "    input: A list of the integers in order where the first integer corresponds to the first location, \n",
+    "    the seocnd to the second location...etc (see the hints below)\n",
+    "    \n",
+    "    output: A float that is rounded up to two decimals (e.g. output of 15.20 means that the probability\n",
+    "    of guessing all of them wrong is 15.20%) \n",
+    "    \n",
+    "    Here is ann example:\n",
+    "    input: [1, 2]. In this input, 1 refers to the first location and 2 refers to the second location.\n",
+    "    After the unfortunate wind blew away your napkins, you collect them and you have to guess which one refers to\n",
+    "    which location. So you might guess -> [2,1] which would be a wrong guess, or -> [1,2] which would be the right guess.\n",
+    "    In this simple example, the output should be \"50\" since there is a 50% chance that you guess wrong.\n",
+    "    \n",
+    "    (Note that you should have at least 10 integers corresponding to 10 locations)\n",
+    "     \"\"\"\n",
+    "    # YOUR CODE HERE\n",
+    "    raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "3e02b9af3afd0201dd90a7e5e25335b1",
+     "grade": false,
+     "grade_id": "cell-238f28e26a20d241",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**3. [Optional]:** What is the expected number of napkins that will be correctly matched to the corresponding location? Estimate this probability using a simulation and interpret the result appropriately.   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "c02d0d7eade56368396c86e184561d6c",
+     "grade": true,
+     "grade_id": "cell-d043a07e151d6caf",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# YOUR CODE HERE\n",
+    "raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "e829ce0ec1a1ef5c48cfdf674b40985b",
+     "grade": false,
+     "grade_id": "cell-aca07075107f6949",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**4. [Optional]:** Determine the probability distribution as a function of the number of correctly matched napkins and create a visualization."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "code",
+     "checksum": "b65db6fc1de6bd49061294009ff79f81",
+     "grade": true,
+     "grade_id": "cell-099090a24ff37172",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# YOUR CODE HERE\n",
+    "raise NotImplementedError()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "5104859331076d801cf4ac54178f5b1e",
+     "grade": false,
+     "grade_id": "cell-206995df8965c5c8",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**5. [Optional]:** Interpret the distribution based on your previous results."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "3c90109465a7721d67b2c4c2fbf5d9a7",
+     "grade": true,
+     "grade_id": "cell-3b319fd869e158e1",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "450c6fa40be7102f8d2a049beacd9f9f",
+     "grade": false,
+     "grade_id": "cell-63a86cebf1294334",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**6. [Optional]:** Compute the probability or expected value found above or both analytically (without a simulation)."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "3f03a0a81e1f23e7a1e2d6fa638268b2",
+     "grade": true,
+     "grade_id": "cell-e79b674a1424279b",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "0b7bc786283201e51ff8c94d18675d40",
+     "grade": false,
+     "grade_id": "cell-7a041ce4cfa30dbb",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "### **Hints:**\n",
+    "* To simplify the problem, you can disregard your actual variable data if you wish, and simply make a new list in Python consisting of the numbers 0 through 9: napkins = [0,1,2,3,4,5,6,7,8,9]. Pretend that this is your stack of napkins with the variable measurements in the correct order. Notice that this data satisfies napkins[i] == i, for all values of i from 0 to 9. Think of the index i as the location label.\n",
+    "* A random permutation of this list can be created with the following code: rand_napkins = np.random.choice(napkins,10,replace=False). You should be able to explain how this function works and why it is relevant for the problem.\n",
+    "* You want to check whether rand_napkins[i] == i, for each value of i from 0 to 9.\n",
+    "* You’ll need to use a loop to create many random lists and repeat the checking procedure, keeping track of the number of matches each time."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "252e9c10bcaa939e3b7d28093272f680",
+     "grade": false,
+     "grade_id": "cell-758ffa7f5060dd15",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "## PART 5: REFLECTION[#probability, #variables]\n",
+    "\n",
+    "Reflect on your application of the LOs in this assignment. How are the connections in the city mapped to the connections between the different LOs. Also reflect on how your prediction and estimation from parts 1 and 2 compare to the results. (<200 words)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "7c1cc68c14b9531868970a212beb460c",
+     "grade": true,
+     "grade_id": "cell-0891a78d85521cca",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "cf102a056570e8a5ae7798b1620d999d",
+     "grade": false,
+     "grade_id": "cell-a35b3b222a3ba694",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "### PYTHON TIPS\n",
+    "Part of the purpose of this assignment is to expose you to and give you practice in using tools for working with data in Python. The following may be useful.\n",
+    "\n",
+    "* Participating actively in the weekly structured study sessions will help prepare you to complete the Python portion of this assignment. The weekly session material can be found here.\n",
+    "* Your peer tutors and professors are here to help! Make use of office hours for assistance.\n",
+    "* For other resources to learn Numpy, you can read or watch any of the tutorials found online, such as https://docs.scipy.org/doc/numpy/user/quickstart.html. You do not need to learn everything about this library, just the basics of arrays and reading their entries.\n",
+    "* To learn to plot the necessary figures, read as much of http://matplotlib.org/users/beginner.html as is necessary to perform the required tasks. Additionally, there is an enormous amount of freely available instructional material, with examples, that can be found online.\n",
+    "* As a best practice, your graphics in Jupyter notebooks should be ‘inline.’ If your version does not do this automatically, include %matplotlib inline at the top of your script.\n",
+    "* Reminder: no matter what, your code needs comments. Read this resource about the importance of comments and this one for further guidance."
+   ]
+  }
+ ],
+ "metadata": {
+  "celltoolbar": "Edit Metadata",
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
