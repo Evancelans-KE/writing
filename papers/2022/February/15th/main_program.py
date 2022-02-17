@@ -1,4 +1,5 @@
 #Load the dataset and read it on Jupyter
+from logging import critical
 from pandas.io.json import json_normalize
 import json
 import pandas as pd
@@ -16,8 +17,7 @@ total_visits=np.array([55,29,8,66,63,93,5,30,18,45,85,71,3,45,65,21,28,99,48,46,
 
 ###
 # Creating some arrays relevant for the plot
-the_hour = ['1', '2', '3','4','5','6', '7', '8','9','10',
-            '11', '12', '13','14','15','16', '17', '18','19','20','21', '22', '23']
+ housing_status = [critical, not_critical, ]
 x_pos = np.arange(len(the_hour))
 CTEs = [shop_walkin,total_visits]
 
