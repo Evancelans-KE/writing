@@ -1,0 +1,2 @@
+"abalone_id","gender","length","diameter","height","whole_weight","shucked_weight","viscera_weight","shell_weight","rings","collector","collector_first","collector_last","collector_organization","water","water_region","feb_temp"
+,M,"0.71","0.555","0.195","1.9485","0.9455","0.3765","0.495","12","Jan Odom, University of Houston",,,,,Florida Atlantic Coast, 71.8 degrees Fahrenheit
