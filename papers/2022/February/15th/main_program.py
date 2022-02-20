@@ -12,8 +12,8 @@ print(df)
 print(df.describe())
 
 #
-shop_walkin =np.array([5,13,15,5,15,14,7,2,14,8,1,15,10,5,8,7,8,5,11,2,11,11,14]) 
-total_visits=np.array([55,29,8,66,63,93,5,30,18,45,85,71,3,45,65,21,28,99,48,46,43,40,19])
+region =np.array(['a','b','c','d','e','f','g','h','i']) 
+mineral =np.array([1,3,4,2,1.5,3.6,2.5,2,6])
 
 ###
 # Creating some arrays relevant for the plot
