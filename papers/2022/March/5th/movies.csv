@@ -1,0 +1,126 @@
+mov_id,date,user_id_maped,program_name,duration_seconds,program_class,season,episode,program_desc,program_genre,series_title,hd,original_name
+930944,02/01/2018,1,Kidnap ,87,MOVIE,0,0,Action MovieKidnap (HD),Action,0,1,Kidnap
+931519,10/10/2017,1,Pingu    ,20,SERIES/EPISODES,6,1,"Animation MoviePingu, Season 6, Episode 2",Animation,0,0,Pingu  
+932094,10/10/2017,1,Going in tyle ,87,MOVIE,0,0,Comedy MovieGoing in Style (HD),Comedy,0,1,Going in tyle
+933244,02/02/2018,1,Men In Black,5543,MOVIE,0,0,Action MovieMen In Black,Action,0,0,Men In Black
+933819,10/07/2017,1,Baywatch ,59,MOVIE,0,0,Comedy MovieBaywatch (HD),Comedy,0,1,Baywatch
+936694,10/06/2017,1,The Boss Baby ,2,MOVIE,0,0,Animation MovieThe Boss Baby (HD),Animation,0,1,The Boss Baby
+938419,02/01/2018,1,Men In Black,47,MOVIE,0,0,Action MovieMen In Black,Action,0,0,Men In Black
+141821,04/02/2018,5,Teletubbies    ,2741,SERIES/EPISODES,1,2,"Animation MovieTeletubbies, Season 1, Episode 3",Animation,0,0,Teletubbies  
+180413,03/06/2018,5,Teletubbies    ,767,SERIES/EPISODES,1,6,"Animation MovieTeletubbies, Season 1, Episode 7",Animation,0,0,Teletubbies  
+180989,2/26/2018,5,In the Night Garden    ,1800,SERIES/EPISODES,4,20,"Animation MovieIn the Night Garden, Season 4, Episode 21",Animation,0,0,In the Night Garden  
+181565,8/15/2017,5,Pingu    ,343,SERIES/EPISODES,2,1,"Animation MoviePingu, Season 2, Episode 2",Animation,0,0,Pingu  
+182141,4/23/2018,5,Teletubbies    ,1681,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+182717,4/25/2018,5,Teletubbies    ,7,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+183293,8/15/2017,5,In the Night Garden    ,11,SERIES/EPISODES,1,1,"Animation MovieIn the Night Garden, Season 1, Episode 2",Animation,0,0,In the Night Garden  
+183869,03/01/2018,5,Teletubbies    ,636,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+184445,6/23/2017,5,Teletubbies    ,39,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+185021,12/14/2017,5,Oscar's Oasis    ,6,SERIES/EPISODES,1,38,"Animation MovieOscar's Oasis, Season 1, Episode 39",Animation,0,0,Oscar's Oasis  
+185597,4/27/2018,5,Teletubbies    ,1409,SERIES/EPISODES,1,30,"Animation MovieTeletubbies, Season 1, Episode 31",Animation,0,0,Teletubbies  
+186173,2/20/2018,5,Teletubbies    ,69,SERIES/EPISODES,1,11,"Animation MovieTeletubbies, Season 1, Episode 12",Animation,0,0,Teletubbies  
+186749,4/18/2018,5,Oscar's Oasis    ,199,SERIES/EPISODES,1,1,"Animation MovieOscar's Oasis, Season 1, Episode 2",Animation,0,0,Oscar's Oasis  
+187325,6/20/2017,5,Pingu    ,147,SERIES/EPISODES,6,1,"Animation MoviePingu, Season 6, Episode 2",Animation,0,0,Pingu  
+187901,2/23/2018,5,Teletubbies    ,1728,SERIES/EPISODES,1,2,"Animation MovieTeletubbies, Season 1, Episode 3",Animation,0,0,Teletubbies  
+188477,8/15/2017,5,Fireman am   Ep. ,88,SERIES/EPISODES,7,1,"Animation MovieFireman Sam 7, Ep. 2",Animation,0,0,Fireman am 
+189053,4/29/2018,5,Oscar's Oasis    ,4382,SERIES/EPISODES,1,11,"Animation MovieOscar's Oasis, Season 1, Episode 12",Animation,0,0,Oscar's Oasis  
+189629,4/29/2018,5,Teletubbies    ,8887,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+190205,4/24/2018,5,Teletubbies    ,52816,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+190781,2/14/2018,5,Teletubbies    ,1479,SERIES/EPISODES,1,7,"Animation MovieTeletubbies, Season 1, Episode 8",Animation,0,0,Teletubbies  
+191357,12/17/2017,5,Pingu    ,379,SERIES/EPISODES,5,1,"Animation MoviePingu, Season 5, Episode 2",Animation,0,0,Pingu  
+191933,4/28/2018,5,Teletubbies    ,162,SERIES/EPISODES,1,17,"Animation MovieTeletubbies, Season 1, Episode 18",Animation,0,0,Teletubbies  
+192509,4/29/2018,5,Oscar's Oasis    ,11,SERIES/EPISODES,1,6,"Animation MovieOscar's Oasis, Season 1, Episode 7",Animation,0,0,Oscar's Oasis  
+193085,01/09/2018,5,Teletubbies    ,66,SERIES/EPISODES,1,2,"Animation MovieTeletubbies, Season 1, Episode 3",Animation,0,0,Teletubbies  
+193661,02/11/2018,5,In the Night Garden    ,1454,SERIES/EPISODES,5,3,"Animation MovieIn the Night Garden, Season 5, Episode 4",Animation,0,0,In the Night Garden  
+194237,6/20/2017,5,Pingu    ,41,SERIES/EPISODES,5,1,"Animation MoviePingu, Season 5, Episode 2",Animation,0,0,Pingu  
+194813,4/25/2018,5,Teletubbies    ,1725,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+195389,8/15/2017,5,Pingu    ,237,SERIES/EPISODES,2,2,"Animation MoviePingu, Season 2, Episode 3",Animation,0,0,Pingu  
+195965,4/18/2018,5,Oscar's Oasis    ,213,SERIES/EPISODES,1,1,"Animation MovieOscar's Oasis, Season 1, Episode 2",Animation,0,0,Oscar's Oasis  
+196541,01/09/2018,5,Pingu    ,256,SERIES/EPISODES,3,1,"Animation MoviePingu, Season 3, Episode 2",Animation,0,0,Pingu  
+197117,6/20/2017,5,Thomas And Friends    Ep ,197,SERIES/EPISODES,6,1,"Animation MovieThomas And Friends, Season 6, Ep 2",Animation,0,0,Thomas And Friends  
+197693,6/20/2017,5,Pingu    ,46,SERIES/EPISODES,3,1,"Animation MoviePingu, Season 3, Episode 2",Animation,0,0,Pingu  
+198269,4/27/2018,5,Teletubbies    ,35669,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+198845,6/25/2017,5,Teletubbies    ,68,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+199421,2/14/2018,5,Teletubbies    ,158,SERIES/EPISODES,1,6,"Animation MovieTeletubbies, Season 1, Episode 7",Animation,0,0,Teletubbies  
+199997,4/25/2018,5,Teletubbies    ,44185,SERIES/EPISODES,1,2,"Animation MovieTeletubbies, Season 1, Episode 3",Animation,0,0,Teletubbies  
+200573,02/10/2018,5,In the Night Garden    ,621,SERIES/EPISODES,2,1,"Animation MovieIn the Night Garden, Season 2, Episode 2",Animation,0,0,In the Night Garden  
+201149,4/28/2018,5,Oscar's Oasis    ,876,SERIES/EPISODES,1,2,"Animation MovieOscar's Oasis, Season 1, Episode 3",Animation,0,0,Oscar's Oasis  
+201725,8/15/2017,5,Teletubbies    ,390,SERIES/EPISODES,1,4,"Animation MovieTeletubbies, Season 1, Episode 5",Animation,0,0,Teletubbies  
+202301,3/19/2018,5,Teletubbies    ,1879,SERIES/EPISODES,1,15,"Animation MovieTeletubbies, Season 1, Episode 16",Animation,0,0,Teletubbies  
+202877,2/13/2018,5,In the Night Garden    ,192,SERIES/EPISODES,3,9,"Animation MovieIn the Night Garden, Season 3, Episode 10",Animation,0,0,In the Night Garden  
+203453,3/25/2018,5,Teletubbies    ,1542,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+204029,02/10/2018,5,Pingu    ,108,SERIES/EPISODES,5,1,"Animation MoviePingu, Season 5, Episode 2",Animation,0,0,Pingu  
+204605,2/13/2018,5,Teletubbies    ,197,SERIES/EPISODES,1,3,"Animation MovieTeletubbies, Season 1, Episode 4",Animation,0,0,Teletubbies  
+205181,2/21/2018,5,Teletubbies    ,1352,SERIES/EPISODES,1,27,"Animation MovieTeletubbies, Season 1, Episode 28",Animation,0,0,Teletubbies  
+205757,03/08/2018,5,Teletubbies    ,293,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+206333,4/29/2018,5,Oscar's Oasis    ,7,SERIES/EPISODES,1,12,"Animation MovieOscar's Oasis, Season 1, Episode 13",Animation,0,0,Oscar's Oasis  
+206909,6/22/2017,5,Teletubbies    ,75,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+207485,6/21/2017,5,Oscar's Oasis    ,402,SERIES/EPISODES,1,1,"Animation MovieOscar's Oasis, Season 1, Episode 2",Animation,0,0,Oscar's Oasis  
+208061,6/20/2017,5,Dragon Ball Z: Resurrection F,130,MOVIE,0,0,Animation MovieDragon Ball Z: Resurrection F,Animation,0,0,Dragon Ball Z: Resurrection F
+208637,6/20/2017,5,Pingu    ,30,SERIES/EPISODES,3,1,"Animation MoviePingu, Season 3, Episode 2",Animation,0,0,Pingu  
+209213,11/21/2017,5,Nan and Lili    Ep. ,42,SERIES/EPISODES,1,3,"Animation MovieNan and Lili, Season 1, Ep. 4",Animation,0,0,Nan and Lili  
+209789,2/24/2018,5,In the Night Garden    ,6153,SERIES/EPISODES,4,7,"Animation MovieIn the Night Garden, Season 4, Episode 8",Animation,0,0,In the Night Garden  
+210365,2/13/2018,5,In the Night Garden    ,97,SERIES/EPISODES,4,10,"Animation MovieIn the Night Garden, Season 4, Episode 11",Animation,0,0,In the Night Garden  
+210941,6/21/2017,5,Teletubbies    ,1564,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+211517,2/13/2018,5,Pingu    ,329,SERIES/EPISODES,5,2,"Animation MoviePingu, Season 5, Episode 3",Animation,0,0,Pingu  
+212093,4/28/2018,5,Teletubbies    ,2240,SERIES/EPISODES,1,42,"Animation MovieTeletubbies, Season 1, Episode 43",Animation,0,0,Teletubbies  
+212669,02/09/2018,5,In the Night Garden    ,1716,SERIES/EPISODES,5,1,"Animation MovieIn the Night Garden, Season 5, Episode 2",Animation,0,0,In the Night Garden  
+213245,2/14/2018,5,Teletubbies    ,30,SERIES/EPISODES,1,4,"Animation MovieTeletubbies, Season 1, Episode 5",Animation,0,0,Teletubbies  
+213821,6/23/2017,5,Teletubbies    ,116,SERIES/EPISODES,1,4,"Animation MovieTeletubbies, Season 1, Episode 5",Animation,0,0,Teletubbies  
+214397,8/15/2017,5,Pingu    ,546,SERIES/EPISODES,4,1,"Animation MoviePingu, Season 4, Episode 2",Animation,0,0,Pingu  
+214973,4/26/2018,5,Teletubbies    ,217,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+215549,4/25/2018,5,Oscar's Oasis    ,438,SERIES/EPISODES,1,5,"Animation MovieOscar's Oasis, Season 1, Episode 6",Animation,0,0,Oscar's Oasis  
+216125,6/20/2017,5,Pingu    ,317,SERIES/EPISODES,6,1,"Animation MoviePingu, Season 6, Episode 2",Animation,0,0,Pingu  
+216701,02/11/2018,5,Teletubbies    ,1416,SERIES/EPISODES,1,3,"Animation MovieTeletubbies, Season 1, Episode 4",Animation,0,0,Teletubbies  
+217277,6/20/2017,5,Marcus Level  (T)    My Kingdom For A Pony,56,SERIES/EPISODES,1,1,Animation MovieMy Kingdom For A Pony,Animation,0,1,Marcus Level  (T)
+217853,8/15/2017,5,Taymour    Ep. ,300,SERIES/EPISODES,1,1,"Comedy%%Family MovieTaymour, Season 1, Ep. 2",Family,0,0,Taymour  
+218429,2/14/2018,5,Teletubbies    ,1198,SERIES/EPISODES,1,6,"Animation MovieTeletubbies, Season 1, Episode 7",Animation,0,0,Teletubbies  
+219005,6/23/2017,5,Teletubbies    ,463,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+219581,6/20/2017,5,Fireman am   Ep. ,36,SERIES/EPISODES,7,1,"Animation MovieFireman Sam 7, Ep. 2",Animation,0,0,Fireman am 
+220157,03/03/2018,5,Teletubbies    ,1090,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+220733,4/26/2018,5,Oscar's Oasis    ,450,SERIES/EPISODES,1,11,"Animation MovieOscar's Oasis, Season 1, Episode 12",Animation,0,0,Oscar's Oasis  
+221309,4/26/2018,5,Oscar's Oasis    ,12610,SERIES/EPISODES,1,12,"Animation MovieOscar's Oasis, Season 1, Episode 13",Animation,0,0,Oscar's Oasis  
+221885,6/20/2017,5,Fireman am   Ep. ,137,SERIES/EPISODES,7,2,"Animation MovieFireman Sam 7, Ep. 3",Animation,0,0,Fireman am 
+222461,4/26/2018,5,Teletubbies    ,60,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+223037,4/28/2018,5,Teletubbies    ,1494,SERIES/EPISODES,1,8,"Animation MovieTeletubbies, Season 1, Episode 9",Animation,0,0,Teletubbies  
+223613,6/20/2017,5,Pingu    ,277,SERIES/EPISODES,3,4,"Animation MoviePingu, Season 3, Episode 5",Animation,0,0,Pingu  
+224189,4/24/2018,5,Teletubbies    ,1917,SERIES/EPISODES,1,2,"Animation MovieTeletubbies, Season 1, Episode 3",Animation,0,0,Teletubbies  
+224765,4/25/2018,5,Teletubbies    ,1477,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+225341,02/10/2018,5,Pingu    ,61,SERIES/EPISODES,5,1,"Animation MoviePingu, Season 5, Episode 2",Animation,0,0,Pingu  
+225917,6/23/2017,5,Teletubbies    ,177,SERIES/EPISODES,1,3,"Animation MovieTeletubbies, Season 1, Episode 4",Animation,0,0,Teletubbies  
+226493,7/15/2017,5,24     :00 AM - :00 AM ,115,SERIES/EPISODES,6,20,Drama Movie1:00 AM - 2:00 AM (HD),Drama,0,0,24
+227069,8/15/2017,5,Teletubbies    ,365,SERIES/EPISODES,1,4,"Animation MovieTeletubbies, Season 1, Episode 5",Animation,0,0,Teletubbies  
+227645,02/09/2018,5,Pingu    ,2254,SERIES/EPISODES,3,1,"Animation MoviePingu, Season 3, Episode 2",Animation,0,0,Pingu  
+228221,02/12/2018,5,Teletubbies    ,1377,SERIES/EPISODES,1,5,"Animation MovieTeletubbies, Season 1, Episode 6",Animation,0,0,Teletubbies  
+228797,12/04/2017,5,Teletubbies    ,472,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+229373,02/09/2018,5,In the Night Garden    ,7,SERIES/EPISODES,5,1,"Animation MovieIn the Night Garden, Season 5, Episode 2",Animation,0,0,In the Night Garden  
+229949,8/15/2017,5,Teletubbies    ,55,SERIES/EPISODES,1,1,"Animation MovieTeletubbies, Season 1, Episode 2",Animation,0,0,Teletubbies  
+230525,4/26/2018,5,Teletubbies    ,54,SERIES/EPISODES,1,5,"Animation MovieTeletubbies, Season 1, Episode 6",Animation,0,0,Teletubbies  
+154480,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+155056,5/26/2017,9,Trolls ,88,MOVIE,0,0,Animation MovieTrolls (HD),Animation,0,1,Trolls
+156208,09/04/2017,9,The Boss Baby ,90,MOVIE,0,0,Animation MovieThe Boss Baby (HD),Animation,0,1,The Boss Baby
+156784,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+157360,08/07/2017,9,The Boss Baby ,13,MOVIE,0,0,Animation MovieThe Boss Baby (HD),Animation,0,1,The Boss Baby
+157936,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+158512,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+159088,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+159664,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+160240,09/04/2017,9,The Boss Baby ,5,MOVIE,0,0,Animation MovieThe Boss Baby (HD),Animation,0,1,The Boss Baby
+160816,5/26/2017,9,Trolls ,92,MOVIE,0,0,Animation MovieTrolls (HD),Animation,0,1,Trolls
+161392,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+161968,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+162544,5/26/2017,9,Trolls ,92,MOVIE,0,0,Animation MovieTrolls (HD),Animation,0,1,Trolls
+163120,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+163696,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+164272,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+164848,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+165424,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+166000,5/26/2017,9,Trolls ,92,MOVIE,0,0,Animation MovieTrolls (HD),Animation,0,1,Trolls
+166576,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+167152,5/26/2017,9,Trolls ,92,MOVIE,0,0,Animation MovieTrolls (HD),Animation,0,1,Trolls
+167728,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+168304,9/18/2017,9,Along Came Polly ,65,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+168880,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+169456,5/26/2017,9,Trolls ,92,MOVIE,0,0,Animation MovieTrolls (HD),Animation,0,1,Trolls
+170032,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+170608,9/18/2017,9,Along Came Polly ,66,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
+171184,9/18/2017,9,Along Came Polly ,12,MOVIE,0,0,Comedy MovieAlong Came Polly (HD),Comedy,0,1,Along Came Polly
