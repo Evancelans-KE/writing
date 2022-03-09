@@ -1,0 +1,4 @@
+
+View(week_1)
+
+> hist(week_1$tl,week_1$fishID, col = "green")
