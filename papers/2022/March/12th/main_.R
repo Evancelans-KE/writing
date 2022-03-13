@@ -33,7 +33,7 @@ func1 = predict(fit, xgrid_1, decision.values = TRUE)
 func1 = attributes(func)$decision
 
 xgrid_1 = expand.grid(X1 = px1, X2 = px2)
-ygrid_1 = predict(fit, xgrid)
+ygrid_1 = predict(f cit, xgrid)
 plot(xgrid_1, col = as.numeric(ygrid), pch = 20, cex = .2)
 points(x, col = y + 1, pch = 19)
 
