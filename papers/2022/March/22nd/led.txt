@@ -1,0 +1,64 @@
+#define _XTAL_FREQ 4000000 // Clock frequency
+
+#include <xc.h>
+
+int up_counter();// up counter function prototype
+
+int down_counter(); // Down counter function prototype
+
+int up_counter()
+{
+LATA4 = 0;       
+LATA5 = 0;
+  __delay_ms(2000); //Two second delay
+LATA4 = 0;       
+LATA5 = 1;
+  __delay_ms(2000); //Two second delay
+   LATA4 = 1;       
+LATA5 = 0;
+  __delay_ms(2000); //Two second delay
+LATA4 = 1;       
+LATA5 = 1;
+  __delay_ms(2000); //Two second delay
+
+}
+
+int down_counter()
+{
+LATA4 = 1;       
+LATA5 = 1;
+  __delay_ms(2000); //Two second delay
+LATA4 = 1;       
+LATA5 = 0;
+  __delay_ms(2000); //Two second delay
+   LATA4 = 0;       
+LATA5 = 1;
+  __delay_ms(2000); //Two second delay
+LATA4 = 0;       
+LATA5 = 0;
+  __delay_ms(2000); //Two second delay
+
+}
+
+
+void main(void)
+
+{
+
+    TRISA4 = 0;           //Make RA4 output.
+ANSA4 = 0;            //and a digital I/O pin
+TRISA5=0;        //Make RA5 output
+ANSA5 = 0;            //and a digital I/O pin
+
+    while(1)
+{            
+     
+up_counter();
+__delay_ms(2000);
+down_counter();   
+       
+
+}
+
+  
+}

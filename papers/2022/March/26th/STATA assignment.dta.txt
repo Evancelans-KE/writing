@@ -1,0 +1,1223 @@
+
+. *********generating new variables for intention
+. ***insert table mapping original to new variable here***
+. gen prepint2 =.
+(277 missing values generated)
+
+. replace prepint2=1 if prepint==1
+(198 real changes made)
+
+. replace prepint2=0 if prepint==2
+(79 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepint2 prepint
+
+           |        prepint
+  prepint2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0         79 |        79 
+         1 |       198          0 |       198 
+-----------+----------------------+----------
+     Total |       198         79 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen inexp2 =.
+(277 missing values generated)
+
+. replace inexp2=1 if inexp==1
+(164 real changes made)
+
+. replace inexp2=0 if inexp==2
+(64 real changes made)
+
+. replace inexp2=. if inexp==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab inexp2 inexp, m
+
+           |              inexp
+    inexp2 |         1          2          3 |     Total
+-----------+---------------------------------+----------
+         0 |         0         64          0 |        64 
+         1 |       164          0          0 |       164 
+         . |         0          0         49 |        49 
+-----------+---------------------------------+----------
+     Total |       164         64         49 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prepeff2 =.
+(277 missing values generated)
+
+. replace prepeff2=1 if prepeff==1
+(245 real changes made)
+
+. replace prepeff2=0 if prepeff==2
+(32 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepeff2 prepeff, m
+
+           |        prepeff
+  prepeff2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0         32 |        32 
+         1 |       245          0 |       245 
+-----------+----------------------+----------
+     Total |       245         32 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prepcon2 =.
+(277 missing values generated)
+
+. replace prepcon2=1 if prepcon==1
+(86 real changes made)
+
+. replace prepcon2=0 if prepcon==2
+(191 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepcon2 prepcon, m
+
+           |        prepcon
+  prepcon2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        191 |       191 
+         1 |        86          0 |        86 
+-----------+----------------------+----------
+     Total |        86        191 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prepfcon2 =.
+(277 missing values generated)
+
+. replace prepfcon2=1 if prepfcon==1
+(139 real changes made)
+
+. replace prepfcon2=0 if prepfcon==2
+(138 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepfcon2 prepfcon, m
+
+           |       prepfcon
+ prepfcon2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        138 |       138 
+         1 |       139          0 |       139 
+-----------+----------------------+----------
+     Total |       139        138 |       277 
+
+
+. 
+. 
+. ***insert table mapping original to new variable here***
+. gen freetest2 =.
+(277 missing values generated)
+
+. replace freetest2=1 if freetest==1
+(180 real changes made)
+
+. replace freetest2=0 if freetest==2
+(54 real changes made)
+
+. replace freetest2=. if freetest==4
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab freetest2 freetest, m
+
+           |             freetest
+ freetest2 |         1          2          3 |     Total
+-----------+---------------------------------+----------
+         0 |         0         54          0 |        54 
+         1 |       180          0          0 |       180 
+         . |         0          0         43 |        43 
+-----------+---------------------------------+----------
+     Total |       180         54         43 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen support2 =.
+(277 missing values generated)
+
+. replace support2=1 if support==1
+(168 real changes made)
+
+. replace support2=0 if support==2
+(60 real changes made)
+
+. replace support2=. if support==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab support2 support, m
+
+           |             support
+  support2 |         1          2          3 |     Total
+-----------+---------------------------------+----------
+         0 |         0         60          0 |        60 
+         1 |       168          0          0 |       168 
+         . |         0          0         49 |        49 
+-----------+---------------------------------+----------
+     Total |       168         60         49 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen recom2 =.
+(277 missing values generated)
+
+. replace recom2=1 if recom==1
+(255 real changes made)
+
+. replace recom2=0 if prepcon==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab recom2 recom, m
+
+           |         recom
+    recom2 |         1          2 |     Total
+-----------+----------------------+----------
+         1 |       255          0 |       255 
+         . |         0         22 |        22 
+-----------+----------------------+----------
+     Total |       255         22 |       277 
+
+
+. 
+. **end of intention explanatory variables**
+. 
+. **generating new explanatory variables for awareness**
+. ***insert table mapping original to new variable here***
+. gen hivaware2 =.
+(277 missing values generated)
+
+. replace hivaware2=1 if hivaware==1
+(244 real changes made)
+
+. replace hivaware2=0 if hivaware==2
+(33 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivaware2 hivaware, m
+
+           |       hivaware
+ hivaware2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0         33 |        33 
+         1 |       244          0 |       244 
+-----------+----------------------+----------
+     Total |       244         33 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivpro2 =.
+(277 missing values generated)
+
+. replace hivpro2=1 if hivpro==1
+(256 real changes made)
+
+. replace hivpro2=0 if hivpro==2
+(21 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivpro2 hivpro, m
+
+           |        hivpro
+   hivpro2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0         21 |        21 
+         1 |       256          0 |       256 
+-----------+----------------------+----------
+     Total |       256         21 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivdie2 =.
+(277 missing values generated)
+
+. replace hivdie2=1 if hivdie==1
+(236 real changes made)
+
+. replace hivdie2=0 if hivdie==4
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivdie2 hivdie, m
+
+           |        hivdie
+   hivdie2 |         1          2 |     Total
+-----------+----------------------+----------
+         1 |       236          0 |       236 
+         . |         0         41 |        41 
+-----------+----------------------+----------
+     Total |       236         41 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivcure2 =.
+(277 missing values generated)
+
+. replace hivcure2=1 if hivcure==1
+(53 real changes made)
+
+. replace hivcure2=0 if hivcure==4
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivcure2 hivcure, m
+
+           |        hivcure
+  hivcure2 |         1          2 |     Total
+-----------+----------------------+----------
+         1 |        53          0 |        53 
+         . |         0        224 |       224 
+-----------+----------------------+----------
+     Total |        53        224 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivhealthy2 =.
+(277 missing values generated)
+
+. replace hivhealthy2=1 if hivhealthy==1
+(38 real changes made)
+
+. replace hivhealthy2=0 if hivhealthy==2
+(239 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivhealthy2 hivhealthy, m
+
+hivhealthy |      hivhealthy
+         2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        239 |       239 
+         1 |        38          0 |        38 
+-----------+----------------------+----------
+     Total |        38        239 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivconcern2 =.
+(277 missing values generated)
+
+. replace hivconcern2=1 if hivconcern==1
+(143 real changes made)
+
+. replace hivconcern2=0 if hivconcern==2
+(134 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivconcern2 hivconcern, m
+
+hivconcern |      hivconcern
+         2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        134 |       134 
+         1 |       143          0 |       143 
+-----------+----------------------+----------
+     Total |       143        134 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivyear2 =.
+(277 missing values generated)
+
+. replace hivyear2=1 if hivyear==3
+(0 real changes made)
+
+. replace hivyear2=0 if hivyear==5
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivyear2 hivyear, m
+
+           |        hivyear
+  hivyear2 |         1          2 |     Total
+-----------+----------------------+----------
+         . |        96        181 |       277 
+-----------+----------------------+----------
+     Total |        96        181 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivres2 =.
+(277 missing values generated)
+
+. replace hivres2=1 if hivres==1
+(10 real changes made)
+
+. replace hivres2=0 if hivres==2
+(125 real changes made)
+
+. replace hivres2=. if hivres==3
+(0 real changes made)
+
+. replace hivres2=. if hivres==4
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivres2 hivres, m
+
+           |                   hivres
+   hivres2 |         1          2          3          4 |     Total
+-----------+--------------------------------------------+----------
+         0 |         0        125          0          0 |       125 
+         1 |        10          0          0          0 |        10 
+         . |         0          0        112         30 |       142 
+-----------+--------------------------------------------+----------
+     Total |        10        125        112         30 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivlive2 =.
+(277 missing values generated)
+
+. replace hivlive2=1 if hivlive==1
+(70 real changes made)
+
+. replace hivlive2=0 if hivlive==2
+(207 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivlive2 hivlive, m
+
+           |        hivlive
+  hivlive2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        207 |       207 
+         1 |        70          0 |        70 
+-----------+----------------------+----------
+     Total |        70        207 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hivworry2 =.
+(277 missing values generated)
+
+. replace hivworry2=1 if hivworry==1
+(96 real changes made)
+
+. replace hivworry2=0 if hivworry==2
+(181 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hivworry2 hivworry, m
+
+           |       hivworry
+ hivworry2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        181 |       181 
+         1 |        96          0 |        96 
+-----------+----------------------+----------
+     Total |        96        181 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prepaware2 =.
+(277 missing values generated)
+
+. replace prepaware2=1 if prepaware==1
+(117 real changes made)
+
+. replace prepaware2=0 if prepaware==2
+(160 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepaware2 prepaware, m
+
+           |       prepaware
+prepaware2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        160 |       160 
+         1 |       117          0 |       117 
+-----------+----------------------+----------
+     Total |       117        160 |       277 
+
+
+. 
+. **ending of awareness explanatory variables**
+. 
+. 
+. *generating safe sex explanatory variables*
+. ***insert table mapping original to new variable here***
+. gen prepcom2 =.
+(277 missing values generated)
+
+. replace prepcom2=1 if prepcom==1
+(226 real changes made)
+
+. replace prepcom2=0 if prepcom==2
+(51 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepcom2 prepcom, m
+
+           |        prepcom
+  prepcom2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0         51 |        51 
+         1 |       226          0 |       226 
+-----------+----------------------+----------
+     Total |       226         51 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prepchange2 =.
+(277 missing values generated)
+
+. replace prepchange2=1 if prepchange==1
+(33 real changes made)
+
+. replace prepchange2=0 if prepchange==2
+(244 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepchange2 prepchange, m
+
+prepchange |      prepchange
+         2 |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0        244 |       244 
+         1 |        33          0 |        33 
+-----------+----------------------+----------
+     Total |        33        244 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen sexpart2 =.
+(277 missing values generated)
+
+. replace sexpart2=1 if sexpart==2
+(272 real changes made)
+
+. replace sexpart2=2 if sexpart==3
+(5 real changes made)
+
+. replace sexpart2=3 if sexpart==4
+(0 real changes made)
+
+. replace sexpart2=4 if sexpart==5
+(0 real changes made)
+
+. replace sexpart2=5 if sexpart==6
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab sexpart2 sexpart, m
+
+           |        sexpart
+  sexpart2 |         2          3 |     Total
+-----------+----------------------+----------
+         1 |       272          0 |       272 
+         2 |         0          5 |         5 
+-----------+----------------------+----------
+     Total |       272          5 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prime2 =.
+(277 missing values generated)
+
+. replace prime2=1 if prime==1
+(207 real changes made)
+
+. replace prime2=0 if prime==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prime2 prime, m
+
+           |         prime
+    prime2 |         1          2 |     Total
+-----------+----------------------+----------
+         1 |       207          0 |       207 
+         . |         0         70 |        70 
+-----------+----------------------+----------
+     Total |       207         70 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen primeconf2 =.
+(277 missing values generated)
+
+. replace primeconf2=1 if primeconf==1
+(106 real changes made)
+
+. replace primeconf2=0 if primeconf==2
+(129 real changes made)
+
+. replace primeconf2=. if primeconf==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab primeconf2 primeconf, m
+
+           |                  primeconf
+primeconf2 |         1          2          3          . |     Total
+-----------+--------------------------------------------+----------
+         0 |         0        129          0          0 |       129 
+         1 |       106          0          0          0 |       106 
+         . |         0          0         14         28 |        42 
+-----------+--------------------------------------------+----------
+     Total |       106        129         14         28 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen primother2 =.
+(277 missing values generated)
+
+. replace primother2=1 if primother==1
+(93 real changes made)
+
+. replace primother2=0 if primother==4
+(0 real changes made)
+
+. replace primother2=. if primother==5
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab primother2 primother, m
+
+           |                  primother
+primother2 |         1          2          3          . |     Total
+-----------+--------------------------------------------+----------
+         1 |        93          0          0          0 |        93 
+         . |         0        139          9         36 |       184 
+-----------+--------------------------------------------+----------
+     Total |        93        139          9         36 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen steadycon2 =.
+(277 missing values generated)
+
+. replace steadycon2=1 if steadycon==1
+(111 real changes made)
+
+. replace steadycon2=2 if steadycon==4
+(33 real changes made)
+
+. replace steadycon2=3 if steadycon==5
+(49 real changes made)
+
+. replace steadycon2=4 if steadycon==6
+(11 real changes made)
+
+. replace steadycon2=5 if steadycon==7
+(0 real changes made)
+
+. replace steadycon2=6 if steadycon==8
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab steadycon2 steadycon, m
+
+           |                                  steadycon
+steadycon2 |         1          2          3          4          5          6          . |     Total
+-----------+-----------------------------------------------------------------------------+----------
+         1 |       111          0          0          0          0          0          0 |       111 
+         2 |         0          0          0         33          0          0          0 |        33 
+         3 |         0          0          0          0         49          0          0 |        49 
+         4 |         0          0          0          0          0         11          0 |        11 
+         . |         0         24         13          0          0          0         36 |        73 
+-----------+-----------------------------------------------------------------------------+----------
+     Total |       111         24         13         33         49         11         36 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prime3m =.
+(277 missing values generated)
+
+. replace prime3m=1 if prime3==1
+(111 real changes made)
+
+. replace prime3m=0 if prime3==2
+(119 real changes made)
+
+. replace prime3m=. if prime3==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prime3m prime3, m
+
+           |                   prime3
+   prime3m |         1          2          3          . |     Total
+-----------+--------------------------------------------+----------
+         0 |         0        119          0          0 |       119 
+         1 |       111          0          0          0 |       111 
+         . |         0          0          6         41 |        47 
+-----------+--------------------------------------------+----------
+     Total |       111        119          6         41 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen osp2 =.
+(277 missing values generated)
+
+. replace osp2=1 if osp==1
+(83 real changes made)
+
+. replace osp2=0 if osp==4
+(0 real changes made)
+
+. replace osp2=. if osp==5
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab osp2 osp, m
+
+           |                     osp
+      osp2 |         1          2          3          . |     Total
+-----------+--------------------------------------------+----------
+         1 |        83          0          0          0 |        83 
+         . |         0        155         31          8 |       194 
+-----------+--------------------------------------------+----------
+     Total |        83        155         31          8 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen ospother2 =.
+(277 missing values generated)
+
+. replace ospother2=1 if ospother==1
+(73 real changes made)
+
+. replace ospother2=0 if ospother==4
+(0 real changes made)
+
+. replace ospother2=. if ospother==5
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab ospother2 ospother, m
+
+           |             ospother
+ ospother2 |         1          2          . |     Total
+-----------+---------------------------------+----------
+         1 |        73          0          0 |        73 
+         . |         0          7        197 |       204 
+-----------+---------------------------------+----------
+     Total |        73          7        197 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen ospconf2 =.
+(277 missing values generated)
+
+. replace ospconf2=1 if ospconf==1
+(18 real changes made)
+
+. replace ospconf2=2 if ospconf==4
+(21 real changes made)
+
+. replace ospconf2=3 if ospconf==5
+(24 real changes made)
+
+. replace ospconf2=4 if ospconf==6
+(0 real changes made)
+
+. replace ospconf2=5 if ospconf==7
+(0 real changes made)
+
+. replace ospconf2=6 if ospconf==8
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab ospconf2 ospconf, m
+
+           |                              ospconf
+  ospconf2 |         1          2          3          4          5          . |     Total
+-----------+------------------------------------------------------------------+----------
+         1 |        18          0          0          0          0          0 |        18 
+         2 |         0          0          0         21          0          0 |        21 
+         3 |         0          0          0          0         24          0 |        24 
+         . |         0         12          8          0          0        194 |       214 
+-----------+------------------------------------------------------------------+----------
+     Total |        18         12          8         21         24        194 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen osp3m =.
+(277 missing values generated)
+
+. replace osp3m=1 if osp3==1
+(51 real changes made)
+
+. replace osp3m=0 if osp3==2
+(26 real changes made)
+
+. replace osp3m=. if osp3==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab osp3m osp3, m
+
+           |                    osp3
+     osp3m |         1          2          3          . |     Total
+-----------+--------------------------------------------+----------
+         0 |         0         26          0          0 |        26 
+         1 |        51          0          0          0 |        51 
+         . |         0          0          4        196 |       200 
+-----------+--------------------------------------------+----------
+     Total |        51         26          4        196 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen ospcon2 =.
+(277 missing values generated)
+
+. replace ospcon2=1 if ospcon==1
+(49 real changes made)
+
+. replace ospcon2=0 if ospcon==2
+(33 real changes made)
+
+. replace ospcon2=. if ospcon==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab ospcon2 ospcon, m
+
+           |              ospcon
+   ospcon2 |         1          2          . |     Total
+-----------+---------------------------------+----------
+         0 |         0         33          0 |        33 
+         1 |        49          0          0 |        49 
+         . |         0          0        195 |       195 
+-----------+---------------------------------+----------
+     Total |        49         33        195 |       277 
+
+
+. 
+. ***ending of safe sex explanatory variables***
+. 
+. *generating PrEP utilization explanatory variables*
+. ***insert table mapping original to new variable here***
+. gen stig2 =.
+(277 missing values generated)
+
+. replace stig2=1 if stig==1
+(50 real changes made)
+
+. replace stig2=0 if stig==2
+(221 real changes made)
+
+. **now confirm that new variable is correct***
+. tab stig2 stig, m
+
+           |               stig
+     stig2 |         1          2          . |     Total
+-----------+---------------------------------+----------
+         0 |         0        221          0 |       221 
+         1 |        50          0          0 |        50 
+         . |         0          0          6 |         6 
+-----------+---------------------------------+----------
+     Total |        50        221          6 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen shame2 =.
+(277 missing values generated)
+
+. replace shame2=1 if shame==3
+(130 real changes made)
+
+. replace shame2=2 if shame==4
+(6 real changes made)
+
+. replace shame2=3 if shame==5
+(0 real changes made)
+
+. replace shame2=. if shame==6
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab shame2 shame, m
+
+           |                         shame
+    shame2 |         1          2          3          4          . |     Total
+-----------+-------------------------------------------------------+----------
+         1 |         0          0        130          0          0 |       130 
+         2 |         0          0          0          6          0 |         6 
+         . |        37        100          0          0          4 |       141 
+-----------+-------------------------------------------------------+----------
+     Total |        37        100        130          6          4 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prom2 =.
+(277 missing values generated)
+
+. replace prom2=1 if prom==1
+(44 real changes made)
+
+. replace prom2=2 if prom==2
+(87 real changes made)
+
+. replace prom2=3 if prom==3
+(87 real changes made)
+
+. replace prom2=. if prom==4
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prom2 prom, m
+
+           |                          prom
+     prom2 |         1          2          3          4          . |     Total
+-----------+-------------------------------------------------------+----------
+         1 |        44          0          0          0          0 |        44 
+         2 |         0         87          0          0          0 |        87 
+         3 |         0          0         87          0          0 |        87 
+         . |         0          0          0         54          5 |        59 
+-----------+-------------------------------------------------------+----------
+     Total |        44         87         87         54          5 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen shamecon2 =.
+(277 missing values generated)
+
+. replace shamecon2=1 if shamecon==1
+(132 real changes made)
+
+. replace shamecon2=0 if shamecon==2
+(125 real changes made)
+
+. replace shamecon2=. if shamecon==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab shamecon2 shamecon, m
+
+           |                  shamecon
+ shamecon2 |         1          2          3          . |     Total
+-----------+--------------------------------------------+----------
+         0 |         0        125          0          0 |       125 
+         1 |       132          0          0          0 |       132 
+         . |         0          0         16          4 |        20 
+-----------+--------------------------------------------+----------
+     Total |       132        125         16          4 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen hetworry2 =.
+(277 missing values generated)
+
+. replace hetworry2=1 if hetworry==1
+(257 real changes made)
+
+. replace hetworry2=0 if hetworry==2
+(15 real changes made)
+
+. **now confirm that new variable is correct***
+. tab hetworry2 hetworry, m
+
+           |             hetworry
+ hetworry2 |         1          2          . |     Total
+-----------+---------------------------------+----------
+         0 |         0         15          0 |        15 
+         1 |       257          0          0 |       257 
+         . |         0          0          5 |         5 
+-----------+---------------------------------+----------
+     Total |       257         15          5 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prepworry2 =.
+(277 missing values generated)
+
+. replace prepworry2=1 if prepworry==1
+(146 real changes made)
+
+. replace prepworry2=0 if prepworry==2
+(127 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prepworry2 prepworry, m
+
+           |            prepworry
+prepworry2 |         1          2          . |     Total
+-----------+---------------------------------+----------
+         0 |         0        127          0 |       127 
+         1 |       146          0          0 |       146 
+         . |         0          0          4 |         4 
+-----------+---------------------------------+----------
+     Total |       146        127          4 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen prephiv2 =.
+(277 missing values generated)
+
+. replace prephiv2=1 if prephiv==1
+(138 real changes made)
+
+. replace prephiv2=0 if prephiv==3
+(0 real changes made)
+
+. **now confirm that new variable is correct***
+. tab prephiv2 prephiv, m
+
+           |             prephiv
+  prephiv2 |         1          2          . |     Total
+-----------+---------------------------------+----------
+         1 |       138          0          0 |       138 
+         . |         0        134          5 |       139 
+-----------+---------------------------------+----------
+     Total |       138        134          5 |       277 
+
+
+. 
+. ***insert table mapping original to new variable here***
+. gen doc2 =.
+(277 missing values generated)
+
+. replace doc2=1 if doc==1
+(26 real changes made)
+
+. replace doc2=0 if doc==2
+(247 real changes made)
+
+. **now confirm that new variable is correct***
+. tab doc2 doc, m
+
+           |               doc
+      doc2 |         1          2          . |     Total
+-----------+---------------------------------+----------
+         0 |         0        247          0 |       247 
+         1 |        26          0          0 |        26 
+         . |         0          0          4 |         4 
+-----------+---------------------------------+----------
+     Total |        26        247          4 |       277 
+
+
+. 
+. **ending PrEP utilization explanatory variables**
+. 
+end of do-file
+
+. logistic prepint2 stig2 prepchange2 prepworry2 conhiv
+
+Logistic regression                             Number of obs     =        271
+                                                LR chi2(4)        =      18.82
+                                                Prob > chi2       =     0.0009
+Log likelihood =  -153.2431                     Pseudo R2         =     0.0578
+
+------------------------------------------------------------------------------
+    prepint2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       stig2 |   .5922624   .2209627    -1.40   0.160     .2850662    1.230503
+ prepchange2 |   .4670136   .2041571    -1.74   0.082     .1982545     1.10011
+  prepworry2 |   .5738266   .1684637    -1.89   0.059     .3227642    1.020178
+      conhiv |   1.862773   .4477335     2.59   0.010     1.162964    2.983689
+       _cons |   1.702863   .6578859     1.38   0.168     .7985929    3.631063
+------------------------------------------------------------------------------
+
+. 
+. logistic prepint2 hetworry2 prephiv2 doc2
+note: prephiv2 omitted because of collinearity
+
+Logistic regression                             Number of obs     =        137
+                                                LR chi2(2)        =       1.78
+                                                Prob > chi2       =     0.4103
+Log likelihood = -86.540807                     Pseudo R2         =     0.0102
+
+------------------------------------------------------------------------------
+    prepint2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+   hetworry2 |   .2560471   .2947436    -1.18   0.237      .026821    2.444353
+    prephiv2 |          1  (omitted)
+        doc2 |   .7158503   .3913666    -0.61   0.541     .2451641    2.090198
+       _cons |    7.67923   8.899061     1.76   0.079     .7923268    74.42708
+------------------------------------------------------------------------------
+
+. 
+. 
+. logistic prepint2 prepeff2 inexp2 freetest2 support2 prepcon2  recom2 
+note: recom2 omitted because of collinearity
+
+Logistic regression                             Number of obs     =        200
+                                                LR chi2(5)        =      11.35
+                                                Prob > chi2       =     0.0448
+Log likelihood = -82.257663                     Pseudo R2         =     0.0646
+
+------------------------------------------------------------------------------
+    prepint2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+    prepeff2 |   .3755638   .3061451    -1.20   0.230     .0760006    1.855881
+      inexp2 |   1.971767   1.059072     1.26   0.206      .688113     5.65004
+   freetest2 |   .6927261   .4973976    -0.51   0.609     .1695798    2.829757
+    support2 |   3.048611   1.874922     1.81   0.070     .9132836     10.1765
+    prepcon2 |   1.600728   .7208508     1.04   0.296     .6622144    3.869336
+      recom2 |          1  (omitted)
+       _cons |   4.156807   3.331768     1.78   0.075     .8639803    19.99935
+------------------------------------------------------------------------------
+
+. 
+. logistic prepint2 prepcom2 sexparts prime2 osp2 
+note: prime2 omitted because of collinearity
+note: osp2 omitted because of collinearity
+
+Logistic regression                             Number of obs     =         49
+                                                LR chi2(2)        =       2.62
+                                                Prob > chi2       =     0.2692
+Log likelihood = -20.495036                     Pseudo R2         =     0.0602
+
+------------------------------------------------------------------------------
+    prepint2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+    prepcom2 |   4.329954   3.899949     1.63   0.104     .7409929    25.30186
+    sexparts |   .9961445   .3735534    -0.01   0.992     .4776639     2.07741
+      prime2 |          1  (omitted)
+        osp2 |          1  (omitted)
+       _cons |   1.677165   1.595603     0.54   0.587     .2598774    10.82388
+------------------------------------------------------------------------------
+
+. 
+. logistic prepint2 prepaware2 hivconcern2 hivworry2 
+
+Logistic regression                             Number of obs     =        277
+                                                LR chi2(3)        =      39.83
+                                                Prob > chi2       =     0.0000
+Log likelihood = -145.67503                     Pseudo R2         =     0.1203
+
+------------------------------------------------------------------------------
+    prepint2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+  prepaware2 |   1.126116   .3325665     0.40   0.688      .631255    2.008914
+ hivconcern2 |   1.532996   .5102248     1.28   0.199     .7984298    2.943372
+   hivworry2 |   6.434065   3.001286     3.99   0.000     2.578856    16.05254
+       _cons |   1.274202   .2601945     1.19   0.235     .8539284     1.90132
+------------------------------------------------------------------------------
+
+. 
+. logistic prepint2 stig2 shame prom shamecon hetworry prepworry prephiv doc2
+
+Logistic regression                             Number of obs     =        268
+                                                LR chi2(8)        =      10.98
+                                                Prob > chi2       =     0.2027
+Log likelihood = -156.13532                     Pseudo R2         =     0.0340
+
+------------------------------------------------------------------------------
+    prepint2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       stig2 |   .5946498   .2170343    -1.42   0.154     .2907978    1.215994
+       shame |   1.045695   .2119062     0.22   0.825     .7029301    1.555599
+        prom |   .8762645   .1343025    -0.86   0.389     .6488944    1.183304
+    shamecon |   .9728665   .2314338    -0.12   0.908     .6103264    1.550759
+    hetworry |   .7635126   .4629531    -0.45   0.656     .2326447    2.505758
+   prepworry |   1.604746   .5194763     1.46   0.144     .8508669    3.026571
+     prephiv |   1.137081   .3625609     0.40   0.687     .6086727    2.124217
+        doc2 |   .8358467   .4092822    -0.37   0.714     .3201296    2.182366
+       _cons |    2.05298   1.872169     0.79   0.430     .3436773    12.26362
+------------------------------------------------------------------------------
+
+. logistic hivaware2 hivpro hivdie hivcure hivhealthy hivconcern hivyear hivres hivlive hivworry prepaware
+
+Logistic regression                             Number of obs     =        277
+                                                LR chi2(10)       =      40.71
+                                                Prob > chi2       =     0.0000
+Log likelihood = -80.802428                     Pseudo R2         =     0.2012
+
+------------------------------------------------------------------------------
+   hivaware2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+      hivpro |   .0521942   .0306754    -5.02   0.000     .0164952    .1651536
+      hivdie |   .5788467   .3090512    -1.02   0.306     .2032824    1.648266
+     hivcure |   1.209819   .6412664     0.36   0.719     .4280943    3.419015
+  hivhealthy |   1.372664   .8128488     0.53   0.593     .4300404    4.381464
+  hivconcern |    .427981   .2474827    -1.47   0.142     .1377882    1.329343
+     hivyear |   1.340039   .8219481     0.48   0.633     .4027271    4.458864
+      hivres |   .8470428   .2982689    -0.47   0.637     .4247879    1.689035
+     hivlive |   .3905058   .2512831    -1.46   0.144     .1106357     1.37835
+    hivworry |   2.453542   1.480606     1.49   0.137     .7518489    8.006755
+   prepaware |   .9555673   .4372759    -0.10   0.921     .3897123    2.343034
+       _cons |   805.3576   1600.871     3.37   0.001     16.36781    39626.61
+------------------------------------------------------------------------------
+
+. 
+. logistic prepcom2 consafe conhiv prepchange sexparts prime primeconf primother prime3
+
+Logistic regression                             Number of obs     =        235
+                                                LR chi2(8)        =      29.01
+                                                Prob > chi2       =     0.0003
+Log likelihood = -92.705756                     Pseudo R2         =     0.1353
+
+------------------------------------------------------------------------------
+    prepcom2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     consafe |   .7330491   .2895595    -0.79   0.432      .337989    1.589877
+      conhiv |   .3615827   .1141273    -3.22   0.001     .1947783     .671235
+  prepchange |   1.114172   .7110833     0.17   0.865     .3189344    3.892273
+    sexparts |   1.465145   .3807374     1.47   0.142     .8804096    2.438241
+       prime |   .4210333   .2164911    -1.68   0.093      .153687    1.153442
+   primeconf |   .5454077   .2001546    -1.65   0.099     .2656722    1.119687
+   primother |   .5036614   .1963292    -1.76   0.078     .2346049    1.081285
+      prime3 |   .7991589   .2802995    -0.64   0.523     .4018649    1.589228
+       _cons |   571.8547   994.2239     3.65   0.000     18.94047    17265.56
+------------------------------------------------------------------------------
+
+. 
+. logistic prepcom2 ospother2 osp3m ospcon2 osp2
+note: ospother2 omitted because of collinearity
+note: osp2 omitted because of collinearity
+
+Logistic regression                             Number of obs     =         50
+                                                LR chi2(2)        =       1.24
+                                                Prob > chi2       =     0.5371
+Log likelihood = -19.626654                     Pseudo R2         =     0.0307
+
+------------------------------------------------------------------------------
+    prepcom2 | Odds Ratio   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+   ospother2 |          1  (omitted)
+       osp3m |   .8816797   .8900464    -0.12   0.901     .1219079     6.37661
+     ospcon2 |   2.668353   2.661419     0.98   0.325      .377793    18.84659
+        osp2 |          1  (omitted)
+       _cons |      3.906   2.557954     2.08   0.037     1.082179    14.09826
+------------------------------------------------------------------------------
+
+
