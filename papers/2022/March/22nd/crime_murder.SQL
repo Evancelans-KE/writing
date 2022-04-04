@@ -118,3 +118,8 @@ select * from crimes
 where crime_location = 'Woodvale'
 and crime_status = 'not solved'
 and crime_timestamp >='2017-01-01'
+
+INSERT INTO CRIMES
+CRIME_LOCATION,CRIME_STATUS,CRIME_TIMESTAMP 
+VALUES
+('WOODVALE','NOT SOLVED','2017-01-01')
